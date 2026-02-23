@@ -1,0 +1,19 @@
+[book]
+authors = ["宋劲杉"]
+language = "zh-cn"
+src = "src"
+title = "Linux C 编程一站式学习"
+
+[output.html]
+# 开启搜索功能
+[output.html.search]
+limit-results = 30
+use-boolean-and = true
+
+# 开启数学公式支持（如果你书中涉及复杂度分析）
+#[output.html.mathjax]
+#enable = true
+
+# 允许直接复制预览代码
+[output.html.playground]
+copyable = true
